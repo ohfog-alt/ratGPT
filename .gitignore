@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.DS_Store
+.obsidian/
+ratgpt-payload-*.zip
+*.log
+fixtures/downloaded-*
+README-draft.md
+legacy/
+
+# Generated credentials and local Codex state
+auth.json
+*-auth.json
+*.auth.json
+installation_id
+state_*.sqlite
+state_*.sqlite-*
+device-key.json
+device_key.json
+enrollment.json
+enrollments.json
+
+# Generated credential-bearing payload bundles
+payload/
+payloads/
+ratgpt-payload-*.tar.gz
