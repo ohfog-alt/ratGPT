@@ -10,6 +10,8 @@
 
 A payload is not an individual shell command. It is a deployment archive containing a controlled Codex instance whose logical identity ratGPT has already enrolled and paired to its controller. There is no post-deployment pairing step.
 
+![ratGPT payload preparation, pre-authorization, deployment, relay rendezvous, and controlled-host workflow](docs/images/ratgpt-workflow-v2.png)
+
 ## Research Use and Disclosure
 
 This repository is proof-of-concept research published for educational and defensive purposes. The security issues demonstrated by this research were disclosed through OpenAI's formal reporting channels, followed by repeated attempts over several months to engage on remediation. It is being released so security practitioners can independently understand the risk, challenge their assumptions, and improve their defenses. Test only with accounts and systems you are authorized to use.
